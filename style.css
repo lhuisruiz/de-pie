@@ -142,7 +142,7 @@ body {
 }
 
 .datos {
-    height: 500px;
+    height: auto;
     background-color: #fff;
 }
 
@@ -185,3 +185,16 @@ body {
 background-image: linear-gradient(to left, #d1c2dd, #cde7f7);
 }
 
+.info{
+  width: 100%;
+  height: auto;
+}
+
+.bts-regalo{
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+}
