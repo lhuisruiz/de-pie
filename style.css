@@ -5,14 +5,14 @@
 
 body {
     width: 100%;
-    background: rgba(243, 243, 243, 0.781);
+    background:#f8fbff;
     display: flex;
     justify-content: center;
    
 }
 .cls{
      width: 100%;
-    background-color: rgb(0, 0, 0);
+    background-color:#f8fbff;
 }
 .contenido {
     width: 100%;
@@ -52,6 +52,31 @@ body {
 
   .cls{
      width: 400px;
-    background-color: rgba(35, 17, 197, 0.699);
+    background-color: rgba(35, 17, 197, 0);
 }
+}
+
+
+/*regaalo*/
+.re-container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0px;
+}
+.fech-img{
+    width: 90%;
+}
+.dat{
+    width: 80%;
+}
+.bt-cc{
+    width: 200px;
+    padding: 10px;
+    border: none;
+    margin: 40px 0px;
+background-image: linear-gradient(to left, #d1c2dd, #cde7f7);
 }
