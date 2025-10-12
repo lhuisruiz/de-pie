@@ -198,3 +198,11 @@ background-image: linear-gradient(to left, #d1c2dd, #cde7f7);
   align-items: center;
   background-color: #fff;
 }
+
+.video{
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
