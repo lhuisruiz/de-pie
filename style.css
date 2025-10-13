@@ -157,7 +157,7 @@ body {
   transform: rotate(10deg);
   /* Gira la imagen 10 grados hacia la derecha */
   width: 50%;
-  box-shadow: 2px 2px 10px 1px#000000ad;
+  box-shadow: 3px 3px 27px 3px #0000008c;
   margin: 50px 0px;
 }
 
