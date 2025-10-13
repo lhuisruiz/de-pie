@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="contenido">
+        <img class="ico" src="img/ico.jpg" alt="">
+        <h1>De Pie Juno A Ti</h1>
+        <p>Compartir o escanear app</p>
+        <div class="div">
+            <a href="http://action_share/">
+                <img class="qr-img" src="img/com.png" alt="">
+            </a>
+            <img onclick="qr();" class="qr-img" src="img/qr.jpg" alt="">
+        </div>
+
+    </div>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script>
+    function qr() {
+        Swal.fire({
+            html: '<div class="ico-qr-aler2">'+
+    '<img class="ico-qr-aler2-img"  src="img/qr-code (1).png" alt="">'+
+'</div>',
+
+            //tamaño
+            imageWidth: 300,
+            imageHeight: 300,
+            //cerrar
+            padding: '0rem',
+            showCloseButton: true,
+            showConfirmButton: false,
+            backdrop: `
+		rgb(54 54 54 / 58%)  `,
+            background: 'linear-gradient(90deg, var(--g1), var(--g2), var(--g3))',
+        })
+    }
+</script>
+</html>
