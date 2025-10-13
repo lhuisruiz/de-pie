@@ -126,7 +126,7 @@ body {
 
 body {
   width: 100%;
-  background: #f8fbff;
+  background: #fff;
   display: flex;
   justify-content: center;
 
@@ -134,12 +134,12 @@ body {
 
 .cls {
   width: 100%;
-  background-color: #f8fbff;
+  background-color: #27ce06;
 }
 
 .contenido {
   width: 100%;
-  height: 95vh;
+  height: 90vh;
   display: flex;
   border: 0px red solid;
   background-color: #fff;
@@ -219,7 +219,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #f6f8fa;
+  background-color: #fff;
 }
 
 .video {
@@ -228,6 +228,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: #fff;
 }
 
 .v {
@@ -272,7 +273,7 @@ p {
   margin-top: 20px;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
 }
 
 .ico.qr-aler2 {
@@ -286,25 +287,33 @@ p {
   margin: 20px 0px;
 }
 
+.linea {
+  width: 100%;
+  height: 100px;
+  background-color: #fff;
+}
+
 footer {
   width: 100%;
   background: linear-gradient(90deg, var(--g1), var(--g2), var(--g3));
   height: 40px;
-  margin-top: 60px;
+
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 footer:hover {
-    transition:  4s ease; /* 👈 aquí va la transición */
+  transition: 4s ease;
+  /* 👈 aquí va la transición */
 
   background: linear-gradient(90deg, var(--g1), #7540c5, #0376ab);
 }
 
-footer p{
+footer p {
   color: rgb(255, 255, 255);
 }
-a{
+
+a {
   text-decoration: none;
 }
