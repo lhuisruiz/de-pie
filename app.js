@@ -1,5 +1,3 @@
-
-
 (function() {
   const KEY = 'installAppAccepted';
   const alertBox = document.getElementById('install-alert');
@@ -14,7 +12,7 @@
         if (!localStorage.getItem(KEY)) {
           alertBox.classList.add('hidden');
         }
-      }, 6000);
+      }, 16000);
     });
   }
 
