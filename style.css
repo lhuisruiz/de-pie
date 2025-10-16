@@ -1,7 +1,9 @@
 * {
   margin: 0;
   padding: 0;
+
 }
+
 
 /*letras*/
 
@@ -141,7 +143,6 @@ body {
   width: 100%;
   height: 90vh;
   display: flex;
-  border: 0px red solid;
   background-color: #fff;
   flex-direction: column;
   align-items: center;
